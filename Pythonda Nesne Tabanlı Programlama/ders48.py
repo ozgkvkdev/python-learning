@@ -26,7 +26,7 @@ class Quiz:
         self.skor = 0
         self.soru_indeksi = 0
 
-    def soruyu_getir() -> Soru:
+    def soruyu_getir(self) -> Soru:
         """Mevcut indeksteki soruyu döndürür."""
         return self.sorular[self.soru_indeksi]
 
